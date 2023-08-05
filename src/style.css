@@ -15,7 +15,6 @@ html {
 }
 h1 {
   font-size: 5rem;
-  text-align: center;
   font-family: "Dancing Script", cursive;
   color: #ffd256;
 }
@@ -37,9 +36,8 @@ p > em {
   justify-content: center;
   height: 100vh;
 }
-.presentation img {
-  border-radius: 100%;
-  width: 100%;
+.presentation {
+  text-align: center;
 }
 .presentation p {
   font-size: 1.5rem;
@@ -54,7 +52,8 @@ nav li a {
   width: fit-content;
   padding: 1vh 0.3vw 0 0.3vw;
 }
-nav li a:hover {
+nav li a:hover,
+nav li a:active {
   transition: all 0.3s ease-in-out;
   color: #6aa8d0;
   background-color: #000;
@@ -89,10 +88,6 @@ nav li a:hover {
 }
 .toggler:checked ~ .menu {
   transform: translateX(-100%);
-}
-.hamburger:hover {
-  transform: scale(0.9, 0.9);
-  opacity: 1;
 }
 .hamburger > div {
   width: 30px;
@@ -136,4 +131,47 @@ nav li a:hover {
   position: fixed;
   transition: all 0.6s cubic-bezier(0.7, 0, 0.3, 1);
   padding: 10vh 10vw 10vh 10vw;
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .presentation {
+    width: 80vw;
+  }
+  .menu {
+    width: 100vw;
+    right: -100vw;
+  }
+  .hamburger {
+    width: 25px;
+    height: 25px;
+    top: 10px;
+    right: 10px;
+  }
+  .toggler {
+    width: 25px;
+    height: 25px;
+    top: 10px;
+    right: 10px;
+  }
+  .hamburger > div {
+    width: 15px;
+    height: 1.8px;
+    background: #feff99;
+    border-radius: 50px;
+    transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+  }
+  .hamburger > div::before,
+  .hamburger > div::after {
+    width: 15px;
+    height: 1.8px;
+  }
+  .hamburger > div::before {
+    transform: translateY(5px);
+  }
+  .hamburger > div::after {
+    transform: translateY(-5px);
+  }
 }
