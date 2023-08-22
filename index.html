@@ -7,17 +7,22 @@
     <title>Home | Y. Muamba Portfolio</title>
     <link rel="stylesheet" href="/src/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <main class="main">
+    <main class="main-home">
       <div class="presentation">
         <h1>Welcome !</h1>
         <p>I'm
-          <em>Yelemyah Muamba</em>, this is my portfolio.</p>
+          <em>Yelemyah Muamba,</em>
+          Front-end developper and web integrator.</p>
+        <a class="link-about" href="">
+          <img src="/image/pointer.svg" alt="">
+          <span>About me</span>
+        </a>
       </div>
       <div class="menu-wrap">
         <input type="checkbox" class="toggler">
@@ -27,10 +32,10 @@
         <nav class="menu">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="index.html">Home</a>
             </li>
             <li>
-              <a href="#">Work</a>
+              <a href="work.html">Work</a>
             </li>
             <li>
               <a href="#">Skills</a>
@@ -45,7 +50,11 @@
           </ul>
         </nav>
       </div>
-      <section class="hidden-menu-rounded"></section>
+      <!-- Feature to add later -->
+      <div class="theme">
+        <img class="moon-icon" src="/image/moon.svg" alt="Moon icon">
+        <img class="sun-icon" src="/image/sun.svg" alt="Sun icon">
+      </div>
     </main>
     <script src="lib/script.js"></script>
   </body>
