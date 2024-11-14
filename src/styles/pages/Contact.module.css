@@ -1,0 +1,45 @@
+.contact {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  margin: 1em 0;
+  text-align: center;
+}
+
+.contact span {
+  margin-bottom: 1.5em;
+  display: inline-block;
+}
+
+.form {
+  background: #1e1e1e;
+  padding: 2em;
+  border-radius: 5px;
+}
+
+.button {
+  background: #ff4500;
+  color: #ededed;
+  border: none;
+  border-radius: 5px;
+  padding: 0.8em 2em;
+  width: 100%;
+}
+
+.button:hover {
+  background: #ff6347;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    width: 100%;
+  }
+}
