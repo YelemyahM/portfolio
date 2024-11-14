@@ -1,0 +1,71 @@
+/* Variables */
+:root {
+  /* Background color */
+  --dark-bg: #121212;
+  --lighter-dark-bg: #1e1e1e;
+  --accent-bg: #ff4500;
+  --hover-bg: #ff6347;
+
+  /* Text color */
+  --important-text: #ededed;
+  --chore-text: #bfbfbf;
+  --accent-text: #ff4500;
+  --hover-text: #fff;
+
+  /* Font */
+  --font-name: "IBM Plex Mono", serif;
+  --bold-font: 700;
+  --regular-font: 400;
+  --light-font: 300;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body,
+html {
+  font-family: var(--font-name);
+  color: var(--chore-text);
+  font-size: 16px;
+  background-image: url(../assets/bg-desktop.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-color: #000;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+  color: var(--important-text);
+  font-weight: var(--bold-font);
+}
+
+em {
+  font-style: normal;
+  color: var(--accent-text);
+  font-weight: var(--bold-font);
+}
+
+nav {
+  text-transform: uppercase;
+  color: var(--important-text);
+}
