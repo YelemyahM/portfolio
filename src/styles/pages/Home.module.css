@@ -1,0 +1,39 @@
+.home {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  flex-direction: column;
+  padding: 0 10em;
+  text-align: center;
+}
+
+.home h1 {
+  margin-bottom: 0.8em;
+}
+
+.home p {
+  margin-bottom: 2em;
+}
+
+.home button {
+  background: #ff4500;
+  color: #ededed;
+  border: none;
+  border-radius: 5px;
+  padding: 1em 2em;
+}
+
+.home button:hover {
+  background: #ff6347;
+  color: #fff;
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .home {
+    padding: 0 2em;
+  }
+}
