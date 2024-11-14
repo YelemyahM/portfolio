@@ -1,0 +1,40 @@
+.projects {
+  padding: 0 4em 2em 4em;
+}
+
+.projects h2 {
+  margin: 1em 0;
+  text-align: center;
+}
+
+.projects span {
+  margin-bottom: 1.5em;
+  display: inline-block;
+}
+
+.snippets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.snippets a {
+  width: calc(33.33% - 1rem);
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 0 2em;
+  }
+
+  .snippets {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .snippets a {
+    width: 100%;
+  }
+}
