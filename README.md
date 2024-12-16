@@ -35,8 +35,8 @@ Check out the live portfolio [ **HERE !**](https://ymuamba-portfolio.netlify.app
 ## **📨 Contact**
 Feel free to reach out for questions or opportunities:
 
-•  **Email:** [Here](mailto:yelemyah.muamba@gmail.com?subject=Collaboration%20Opportunity&body=Hello,%20I%20found%20your%20portfolio%20and...).
+•  **Email:**  <a  href="mailto:yourname@example.com"  target="_blank">yelemyah.muamba@gmail.com</a>
 
-•  **LinkedIn:** [My profil](https://www.linkedin.com/in/yelemyah-muamba-%F0%9F%92%BB-7833a625a/).
+•  **LinkedIn:** <a  href="https://www.linkedin.com/in/yelemyah-muamba-%F0%9F%92%BB-7833a625a/"  target="_blank">My  Profile</a>
 
-•  **GitHub:** [My GitHub profile](https://github.com/YelemyahM).
+•  **GitHub:** <a  href="https://github.com/YelemyahM"  target="_blank">My  Profile</a>
