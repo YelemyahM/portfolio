@@ -1,4 +1,4 @@
-# **Mon Portfolio** [![React Badge](https://img.shields.io/badge/-React-blue)](https://reactjs.org/) [![Bootstrap Badge](https://img.shields.io/badge/-Bootstrap-blueviolet)](https://getbootstrap.com/)
+# **My Portfolio** [![React Badge](https://img.shields.io/badge/-React-blue)](https://reactjs.org/) [![Bootstrap Badge](https://img.shields.io/badge/-Bootstrap-blueviolet)](https://getbootstrap.com/)
 
 Welcome to my **portfolio**! This project showcases my skills and web development projects.
 
